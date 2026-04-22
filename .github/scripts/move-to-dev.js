@@ -1,6 +1,6 @@
 module.exports = async ({ github, context }) => {
-  const org = 'tiendas-3b';
-  const projectNumber = 6;
+  const org = 'vdelrazo';
+  const projectNumber = 1;
 
   // 1. Extraer el número de issue del nombre del branch
   // Convención: feature/20-sandbox-credentials, fix/14-handler-create, chore/18-servicebus-config
