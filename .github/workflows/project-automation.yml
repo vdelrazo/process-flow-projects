@@ -9,6 +9,8 @@ on:
 
 jobs:
   automate:
+    permissions:
+      contents: read
     uses: vdelrazo/engineering-standards/.github/workflows/project-automation.yml@main
     secrets:
       PROJECT_TOKEN: ${{ secrets.PROJECT_TOKEN }}
